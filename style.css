@@ -1,0 +1,48 @@
+html {
+    background: #F7DED0;
+}
+#coffeeCup {
+    width: 400px;
+    height: 400px;
+}
+
+.centralMenu {
+    position: relative;
+    display: inline-block;
+    margin: 0; /* Keeps the container as an inline block for proper positioning */
+}
+
+h1 {
+    position: absolute;
+    top: 50%; /* Positions the text vertically at the center of the container */
+    left: 50%; /* Positions the text horizontally at the center of the container */
+    transform: translate(-50%, -50%); /* Offsets the text to perfectly center it */
+    color: white; /* Adjust text color for contrast on the image */
+    font-size: 40px; /* Adjust the font size */
+    text-shadow: 1px 1px 2px rgba(7, 1, 1, 0.5), 2px 2px 3px rgba(6, 0, 0, 0.863);
+}
+
+.menu {
+   padding-left: 10px;
+   padding-top: 0px;
+   margin-right: 20px;
+   margin: 0%;
+   margin-left: 100px;
+}
+
+#name {
+    text-transform: capitalize;
+   text-decoration:underline;
+    font-size: 30px;
+    color: rgba(91, 87, 87, 0.965);
+}
+.pamphlet {
+    width: 100%;
+    max-width: 600px; /* Fixed width for pamphlet */
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fcf3ef;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
